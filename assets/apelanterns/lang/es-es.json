@@ -1,6 +1,6 @@
 {
-    "_comentarios-1": "More Lanterns v1.1.2 || Enlace de VS ModDB: https://mods.vintagestory.at/apelanterns ",
-    "_comentarios-2": "Traducido por C4BR3R4 || Última Modificación: 16/05/2025 || Registro de Cambios: https://c4br3r4.es/index.php?topic=1352.0 ",
+    "// More Lanterns v1.3.1 || Enlace de VS ModDB: https://mods.vintagestory.at/apelanterns ": "",
+    "// Traducido por C4BR3R4 || Última Modificación: 29/08/2025 || Registro de Cambios: https://c4br3r4.es/index.php?topic=1352.0 ": "",
 
 	"game:tabname-apelanterns": "Farolillos",
 	"game:tabname-apepaperlanterns": "Farolillos",
@@ -8,7 +8,7 @@
 	"game:tabname-apemetallanterns": "Faroles",
 	"game:tabname-apestonelanterns": "Faroles de Piedra",
 
-	"lanterncolor-plain": "Neutro",
+	"lanterncolor-plain": "Color Claro",
 	"lanterncolor-red": "Rojo",
 	"lanterncolor-green": "Verde",
 	"lanterncolor-blue": "Azul",
@@ -26,6 +26,8 @@
 	"paperlantern-chinese": "Farolillo Chino Decorado",
 	"paperlantern-chinese2": "Farolillo Chino",
 	"paperlantern-medieval1small": "Farolillo Medieval",
+	"block-apepaperlantern-off-*": "Apagar",
+	"block-apepaperlantern-on-*": "Encender",
 
 
 	"block-apemetallantern-on-modern1-plain-*": "Farol Moderno (Encendido)",
@@ -62,21 +64,39 @@
 	"lanternparts-kasa": "Tapa",
 	"lanternparts-houju": "Tapa Puntiaguda",
 
+	"block-lanternparts-*-kiso-*": "Base",
+	"block-lanternparts-*-sao-*": "Columna",
+	"block-lanternparts-*-ashi-*": "Patas",
+	"block-lanternparts-*-chuudai-*": "Base de Quemador",
+	"block-lanternparts-*-hibukuro-*": "Quemador",
+	"block-lanternparts-*-kasa-*": "Tapa",
+	"block-lanternparts-*-houju-*": "Tapa Puntiaguda",
+
+
 	"lanternparts-style-yukimi": "Farol Yukimi",
 	"lanternparts-style-maru": "Farol Kodai Maru Yukimi",
 	"lanternparts-style-ikekomi": "Farol Ikekomi",
 	"lanternparts-style-daitsuki": "Farol Daitsuki",
+
 
 	"stonelantern-yukimi-doro": "Farol Yukimi Dōrō",
 	"stonelantern-kodai-maru-yukimi": "Farol Kodai Maru Yukimi Dōrō",
 	"stonelantern-ikekomi-gata-oribe": "Farol Oribe Ikekomi Dōrō",
 	"stonelantern-okunoin-daitsuki": "Farol Okunoin Daitsuki Dōrō",
 
-	"apestonelantern-clean": "Nuevo",
+
+	"apestonelantern-clean": "Perfecto",
 	"apestonelantern-weathered": "Desgastado",
 	"apestonelantern-cracked": "Agrietado",
 	"apestonelantern-mossy": "Musgoso",
 	"apestonelantern-rust": "Oxidado",
+
+	"block-apestonelantern-*-*-*-clean": "Perfecto",
+	"block-apestonelantern-*-*-*-weathered": "Desgastado",
+	"block-apestonelantern-*-*-*-cracked": "Agrietado",
+	"block-apestonelantern-*-*-*-mossy": "Musgoso",
+	"block-apestonelantern-*-*-*-rust": "Oxidado",
+
 
 	"game:apestonelantern-handbook-help-title-yukimi-doro": "Farol Yukimi Dōrō",
 	"game:apestonelantern-handbook-help-title-kodai-maru-yukimi": "Farol Kodai Maru Yukimi Dōrō",
@@ -97,12 +117,19 @@
 	"block-handbooktext-apestonelantern-okunoin-daitsuki-*": "<br>Farol Tradicional Japonés de Templo. «Okunoin» se refiere a la zona sagrada que se encuentra en el interior de un santuario, donde están consagradas estatuas budistas importantes u ocultas. Los farolillos que se colocan en estas zonas apartadas se llaman faroles de estilo Okunoin. Tienen una forma característica, con una parte superior ancha y acampanada con «warabites» y una base decorada, a menudo con motivos geométricos o florales.",
 	
 
+	"blockhelp-behavior-dimmable-ctrl": "Atenuar",
+	"dimmable-help": "<font color='gray'>Ctrl + Botón Derecho ► Atenuar.</font>",
+	"rightclickpickup-help": "Recoger",
 
-
+	"block-lightlevel": "› Nivel de Iluminación:",
+	"lightl1": "<font color='cornflowerblue'>Brillante</font>",
+	"lightl2": "<font color='cornflowerblue'>Normal</font>",
+	"lightl3": "<font color='cornflowerblue'>Bajo</font>",
+	"lightl4": "<font color='cornflowerblue'>Tenue</font>",
 
 
 	"block-floatinglantern-*": "Farolillo Flotante",
-	"blockdesc-floatinglantern-*": "Colocar directamente sobre el agua.",
+	"blockdesc-floatinglantern-*": "<font color='silver'>Colocar directamente sobre el agua.</font>",
 	"floatinglantern": "Farolillo Flotante",
 	"floatinglantern-floating1": "Cuadrado",
 	"floatinglantern-floating2": "Octágono",
@@ -121,7 +148,8 @@
 	"game:incontainer-item-dye-cyan": "Pigmento Cian",
 
 
-    "_obsoleto-1.1.2": "Las siguientes cadenas ya no existen en el Archivo de Idioma de la v1.1.2",
+
+    "// Inexistentes en la v1.1.2 ": "",
 	"block-apepaperlantern-off-basic-plain-*": "Farolillo Grande (Apagado)",
 	"block-apepaperlantern-off-basic-blue-*": "Farolillo Grande de Luz Azul (Apagado)",
 	"block-apepaperlantern-off-basic-red-*": "Farolillo Grande de Luz Roja (Apagado)",
